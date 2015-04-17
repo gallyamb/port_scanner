@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SharpPcap</id>
+    <version>4.2.0</version>
+    <authors>Chris.Young</authors>
+    <owners>Chris.Young</owners>
+    <licenseUrl>https://sourceforge.net/directory/license:lgplv3/</licenseUrl>
+    <projectUrl>http://sourceforge.net/apps/mediawiki/sharppcap/index.php</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SharpPcap is a cross-platform packet capture framework for the .NET environment, based on the famous pcap / WinPcap libraries. It provides an API for capturing, injecting, analyzing and building packets using any .NET language such as C# and VB.NET.</description>
+    <dependencies>
+      <dependency id="PacketDotNet" version="0.13.0" />
+    </dependencies>
+  </metadata>
+</package>
